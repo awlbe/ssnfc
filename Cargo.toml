@@ -1,0 +1,10 @@
+[package]
+name = "ssnfc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+config = "0.14.0"
+nvml-wrapper = "0.10.0"
+serde = "1.0.209"
